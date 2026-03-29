@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project demonstrates how classic Artificial Intelligence search algorithms — **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** — can be used to solve a maze (pathfinding problem).
+This project shows how Artificial Intelligence search algorithms — **Breadth-First Search (BFS)** and **Depth-First Search (DFS)** — can be used to solve a maze (pathfinding problem).
 
 The system generates a random maze and visually compares how BFS and DFS find paths from a start point to a goal.
 
@@ -42,8 +42,6 @@ This project:
 * 🔍 BFS (guarantees shortest path)
 * 🌊 DFS (explores depth-first, not always optimal)
 * 📊 Side-by-side comparison (BFS vs DFS)
-* 🎨 Clean UI with colors, grid, and legend
-* 📏 Step count display for both algorithms
 
 ---
 
@@ -100,8 +98,8 @@ python main.py
 
 ## 📊 Key Observations
 
-* BFS always finds the **shortest path**
-* DFS may find a **longer path depending on traversal order**
+* BFS always finds the shortest path
+* DFS may find a longer path depending on traversal order
 * Visualization helps in understanding algorithm behavior clearly
 
 ---
