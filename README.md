@@ -27,6 +27,15 @@ This project:
 
 ---
 
+## How It Works
+
+1. A random maze is generated
+2. BFS is applied to find the shortest path
+3. DFS is applied to explore an alternative path
+4. Both results are visualized side-by-side
+
+---
+
 ## ⚙️ Features
 
 * 🔄 Random maze generation (different every run)
@@ -78,6 +87,14 @@ python main.py
 * BFS and DFS shown side-by-side
 * Path highlighted clearly
 * Step count comparison displayed
+<img width="1919" height="1018" alt="Results3" src="https://github.com/user-attachments/assets/109f3508-bbda-41d4-a843-e9cc3e697f6a" />
+
+## Output Explanation
+
+- Left side shows BFS (shortest path)
+- Right side shows DFS (may not be optimal)
+- Step count indicates number of cells visited in the path
+
 
 ---
 
